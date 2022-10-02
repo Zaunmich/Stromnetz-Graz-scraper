@@ -24,7 +24,7 @@ A simple script to scrape your smartmeter readings from https://webportal.stromn
 
 ## Notes
 
-# About the missing certificates
+### About the missing certificates
 
 I have included the current certificates from https://webportal.stromnetz-graz.at/ in the repo as ``server.pem``. You can simply add those to the ``cacert.pem`` file.
 Just be aware, that those certificates expire on Monday, April 17, 2023 at 1:59:59 AM. 
