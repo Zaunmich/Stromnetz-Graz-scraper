@@ -13,7 +13,7 @@ A simple script to scrape your smartmeter readings from https://webportal.stromn
 
 * Create virtual environment  ``python -m venv .venv``
 * Activeate it. E.g. on windows ``\.venv\Scripts\activate``
-* Install packages ``pip -r requirements.txt``
+* Install packages ``pip install -r requirements.txt``
 * Rename ``config.py-example`` into ``config.py`` and fill out the required fields
 * Add the https certificate from https://webportal.stromnetz-graz.at/ to ``cacert.pem`` (see ``stromnetzGrazScraper.py`` for more info)
 * Run ``addAllPastDays.py`` to add the last 180 days to your database
