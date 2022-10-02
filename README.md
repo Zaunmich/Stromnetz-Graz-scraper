@@ -21,3 +21,10 @@ A simple script to scrape your smartmeter readings from https://webportal.stromn
 ### Daily runs
 
 * Simply run ``addYesterday.py`` every day after midnight to add yesterday's data to your InfluxDB instance.
+
+## Notes
+
+# About the missing certificates
+
+I have included the current certificates from https://webportal.stromnetz-graz.at/ in the repo as ``server.pem``. You can simply add those to the ``cacert.pem`` file.
+Just be aware, that those certificates expire on Monday, April 17, 2023 at 1:59:59 AM. 
